@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+html{
+    margin: 0;
+    font-family: outfit, sans-serif;
+}
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#023047;
+}
+.panel{
+    background-color:  #054666;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    overflow: hidden;
+    padding: 20px;
+border-radius: 8px;
+}
+.igm{
+    height:  400px;
+    border-radius: 8px;
+}
+.heading{
+    color: aliceblue;
+    
+}
+.pra{color:#399ff3;
+    font-weight: 300px;
+    font-size: 18px;
+}
+.logo{ color: aqua;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.logoclock{
+    color:#399ff3 ;
+    font-size: 18px;
+    font-weight: 600px;
+    float: right ;
+    padding-right: 20px;
+    
+}
+.rights{ color:#399ff3;
+    font-size: 18px;
+    font-weight: 300;
+    border-top: 3px solid;
+    padding-top: 20px;
+
+ 
+}
+.avatar {height: 40px;
+    float: left;
+    padding-right: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 600;
+    padding-left: 5px;
+    
+    
+}
+@media (max-width : 600px){
+   .panel{width: 300px;
+   }
+   .igm{ width:300px; height: 300px;
+}
+   
+}
+
+ 
+
+
